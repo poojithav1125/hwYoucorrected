@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Housing Website</title>
+  <style>
+    body {
+      background-color: #f2f2f2;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    h1 {
+      font-size: 24px;
+      margin: 0;
+    }
+    
+    .houses-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin: 20px;
+    }
+    
+    .house {
+      background-color: #fff;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      margin-bottom: 20px;
+      padding: 20px;
+      width: 300px;
+    }
+    
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    form {
+      background-color: #fff;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      margin: 20px;
+      padding: 20px;
+      width: 300px;
+    }
+    
+    button {
+      background-color: #333;
+      border: none;
+      border-radius: 5px;
+      color: #fff;
+      cursor: pointer;
+      font-size: 16px;
+      padding: 10px 20px;
+    }
+    
+    button:hover {
+      background-color: #666;
+    }
+  </style>
+</head>
+<body>
+    <header>
+      <h1>Welcome to our Housing Website</h1>
+      <button>Home</button>
+      <button>Houses List</button>
+    </header>
+    
+    <div class="houses-list">
+      <div class="house">
+        <img src="house1.jpg" alt="House 1">
+        <h2>House 1</h2>
+        <p>Beautiful house with 3 bedrooms and 2 bathrooms.</p>
+        <button>More Details</button>
+      </div>
+      
+      <div class="house">
+        <img src="house2.jpg" alt="House 2">
+        <h2>House 2</h2>
+        <p>Spacious house with 4 bedrooms and 3 bathrooms.</p>
+        <button>More Details</button>
+      </div>
+      
+      <div class="house">
+        <img src="house3.jpg" alt="House 3">
+        <h2>House 3</h2>
+        <p>Cozy house with 2 bedrooms and 1 bathroom.</p>
+        <button>More Details</button>
+      </div>
+    </div>
+    
+    <form>
+      <h2>Contact Us</h2>
+      <label for="name">Name:</label>
+      <input type="text" id="name" placeholder="Enter your name" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" placeholder="Enter your email" required>
+      
+      <label for="message">Message:</label>
+      <textarea id="message" placeholder="Enter your message" required></textarea>
+      
+      <button>Submit</button>
+    </form>
+    
+    <footer>
+      &copy; 2024 Housing Website. All rights reserved.
+    </footer>
+    
+    <script>
+      // Add any JavaScript code here if needed
+    </script>
+  </body>
+</html>
